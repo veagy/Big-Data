@@ -1,0 +1,34 @@
+[
+    {
+        "mode": "REQUIRED",
+        "name": "name",
+        "type": "STRING"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "age",
+        "type": "INTEGER"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "gender",
+        "type": "STRING"
+    },
+    {
+        "mode": "REPEATED",
+        "name": "citiesLived",
+        "type": "RECORD",
+        "fields": [
+            {
+                "mode": "NULLABLE",
+                "name": "place",
+                "type": "STRING"
+            },
+            {
+                "mode": "REPEATED",
+                "name": "yearsLived",
+                "type": "INTEGER"
+            }
+        ]
+    }
+]
