@@ -1,3 +1,4 @@
+#Schema, nested & repeated data:
 [
     {
         "mode": "REQUIRED",
@@ -32,3 +33,7 @@
         ]
     }
 ]
+
+#ndJson file:
+{"name":"John Doe","age":22,"gender":"Male","citiesLived":[{"place":"Seattle","yearsLived":[1995]},{"place":"Stockholm","yearsLived":[2005]}]}
+{"name":"Anna Karenina","age":"45","gender":"Female","citiesLived":[{"place":"Stockholm","yearsLived":[1992,1998,2000,2010]},{"place":"Russia","yearsLived":[1998,2001,2005]},{"place":"Austin","yearsLived":[1995,1999]}]}
